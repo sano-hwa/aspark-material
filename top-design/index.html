@@ -84,6 +84,7 @@
     width:300px;
     height:auto;
     margin-bottom:20px;
+    mix-blend-mode: darken;
   }
   .hero .eyebrow{
     font-size:13px;
@@ -242,6 +243,11 @@
   .browser .stage.scroll{
     max-height:670px;
     overflow-y:auto;
+  }
+  @media (width < 1150px) {
+    .browser .stage.scroll{
+      height: 60.36vw;
+    }
   }
   .browser .stage.scroll img{
     display:block;
